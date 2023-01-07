@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.container-hero{
+    background-color: #1F2937;
+    padding: 0 10vw;
+}
+.container-hero .header{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 16px 0;
+}
+.container-hero .header .links{
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 16px;
+
+    list-style-type: none;
+}
+.container-hero .header a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.container-hero .header .logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.container-hero .container{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 2em 0;
+    gap: 32px;
+}
+
+.container-hero .left,
+.container-hero .right{
+    flex: 1;
+    margin: 2em 0;
+}
+
+.container-hero .left h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.container-hero .left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #E5E7EB;
+}
+
+.container-hero .left button{
+    margin-top: 8px;
+    padding: 8px 16px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.container-hero .right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.container-hero .right img{
+    max-height: 300px;
+
+    background-color: #8a909c;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.container-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+    padding: 0 10vw;
+    padding-bottom: 20vh;
+}
+
+.container-info .Title{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    padding: 32px 0;
+
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.container-info .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-info .container .info-box{
+    height: 150px;
+    width: 150px;
+
+    text-align: center;
+}
+.container-info .container .info-box .image{
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+
+    height: 100%;
+    width: 100%;
+
+    margin-bottom: 8px;
+}
+.container-info .container .info-box .image img{
+    height: 100%;
+    width: 100%;
+
+    border-radius: 12px;
+}
+
+.container-quotes{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 10vh 10vw;
+
+    background-color: #E5E7EB;
+}
+
+.container-quotes h1{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.container-quotes p{
+    font-size: 16px;
+    font-weight: 900;
+    color: #1F2937;
+
+    align-self: flex-end;
+}
+
+.container-Signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10vh 10vw;
+}
+
+.container-Signup .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 32px;
+
+    background-color: #3882F6;
+    border-radius: 15px;
+    width: 100%;
+
+    padding: 48px;
+}
+.container-Signup .left h1{
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+    margin-bottom: 8px;
+}
+.container-Signup .left p{
+    font-size: 16px;
+    color: #F9FAF8;
+    font-weight: 400;
+}
+
+.container-Signup .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-Signup .right button{
+    padding: 8px 16px;
+
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 32px;
+
+    background-color: #1F2937;
+}
+.footer h1{
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #E5E7EB;
+}
